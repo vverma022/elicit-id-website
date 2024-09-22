@@ -67,7 +67,6 @@ export default function AdminLoginComponent() {
                 <SelectItem value="finance">Finance</SelectItem>
                 <SelectItem value="operations">Operations</SelectItem>
                 <SelectItem value="marketing">Marketing</SelectItem>
-                <SelectItem value="it">IT</SelectItem>
               </SelectContent>
             </Select>
           </div>
