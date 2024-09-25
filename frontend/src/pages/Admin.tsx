@@ -29,7 +29,8 @@ export default function AdminLoginComponent() {
   }
 
   return (
-    <Card className="w-full max-w-md mx-auto">
+    <div className="flex items-center justify-center min-h-screen bg-background">
+    <Card>
       <CardHeader>
         <CardTitle>Admin Login</CardTitle>
         <CardDescription>Please enter your credentials to access the admin panel.</CardDescription>
@@ -80,5 +81,6 @@ export default function AdminLoginComponent() {
         </form>
       </CardContent>
     </Card>
+  </div>
   )
 }
